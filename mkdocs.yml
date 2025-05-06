@@ -2,3 +2,38 @@ site_name: My site
 site_url: https://rendybjunior.com/
 theme:
   name: material
+  features:
+    - navigation.indexes
+plugins:
+  - search
+  - blog
+  - tags:
+        tags_file: blog/tags.md
+  - rss:
+        match_path: "blog/posts/.*"
+        date_from_meta:
+          as_creation: date.created
+          as_update: date.updated
+nav:
+  - Home: index.md
+  - Blog:
+     - blog/index.md
+     - Tags: blog/tags.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      name: squidfunk on Mastodon
+      link: https://fosstodon.org/@squidfunk
+    - icon: /fontawesome/regular/envelope
+      name: send me an email
+      link: mailto:<email-address>
+
+hooks:
+  - hooks/socialmedia.py
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
