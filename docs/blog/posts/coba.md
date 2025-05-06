@@ -26,7 +26,7 @@ Recently I re-learned OKR, reading a book titled ["Measure What Matters" by John
 
 Here is what I learned.
 
-!["Measure What Matters" by John Doerr](../assets/images/okr-book.JPG)
+!["Measure What Matters" by John Doerr](/assets/images/okr-book.JPG)
 
 ### Focus, drop things to let you focus
 
