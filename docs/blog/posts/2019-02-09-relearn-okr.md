@@ -1,7 +1,6 @@
 ---
 date:
-  created: 2023-12-31
-  updated: 2024-01-02
+  created: 2019-02-09
 authors:
   - rendy
 categories:
@@ -19,6 +18,8 @@ links:
 # Re-learn OKR
 
 Once upon a time, my manager introduced me a tool to help me manage the team. I was so green, this was the first time I manage a team so any tool will likely help me. The tool is called OKR, stands for Objective and Key Result. There was not really much introduction done, so I did my homework trying to understand what this is about.
+
+<!-- more -->
 
 I found one article that helps me to understand OKR. I read it. I said to myself "This is no brainer, I'll just do it, it's super simple...". Then we drafted our first OKR. Months passed. We felt very few benefit we get from OKR, it's just like simple goal and target setting, with a necessary buzzword to make it viral. Then we went back to simple goal setting with usual SMART framework (Specific, Measurable, Attainable, Realistic, Time Bound).
 
