@@ -21,20 +21,19 @@ Open for collaboration, consultation, and mentoring. Reach me at :fontawesome-so
 
 ## Professional Experience
 
-* Senior VP of Data, Evermos; Jakarta, ID. 2025 - Present
-* VP of Data, Evermos; Jakarta, ID. 2023 - 2025
+* VP of Data, Evermos; Jakarta, ID. 2023 - present
 * Head of Data, Ruangguru; Jakarta, ID. 2022 - 2023
 * Senior Data Manager, Ruangguru; Jakarta, ID. 2019 - 2022
 * Data Engineering Lead, Traveloka; Jakarta, ID. 2015 - 2019
 * Software Engineer, Traveloka; Jakarta, ID. 2014 - 2015
-* Project Management Office, Accenture; Jakarta, ID. 2013-2014
+* Project Management Office, Accenture; Jakarta, ID. 2013 - 2014
 
 ## Education
 * Georgia Institute of Technology, Atlanta, US. MSc CS ML. 2024, GPA 3.9 of 4.0
-* Bandung Institute of Technology, Bandung, ID. BE Informatics, 2009-2013, GPA 3.9 of 4.0
+* Bandung Institute of Technology, Bandung, ID. BE Informatics, 2009 - 2013, GPA 3.9 of 4.0
 
 ## Awards and Certificate
-* Exceptional Department Award - Data Team Evermos, 2024
+* Exceptional Department Rating - Evermos, 2024
 * CHIEF of The Year - Ruangguru, 2021
 * Most Inspiring Award - Data Team Traveloka, 2019
 * AWS Certified SysOps Administrator Associate, 2016
@@ -43,5 +42,5 @@ Open for collaboration, consultation, and mentoring. Reach me at :fontawesome-so
 * 3rd Place, National Programming Competition IPB, 2008 
 
 ## Community
-* Google Developer Expert, AI and Cloud, 2019-now
-* Mentor at Google Startup Accelerator Indonesia and SouthEast Asia, 2022-now
+* Google Developer Expert, AI and Cloud, 2019 - present
+* Mentor at Google Startup Accelerator Indonesia and SouthEast Asia, 2022 - present
