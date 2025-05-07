@@ -22,6 +22,7 @@ Open for collaboration, consultation, and mentoring. Reach me at :fontawesome-so
 ## Professional Experience
 
 * VP of Data, Evermos; Jakarta, ID. 2023 - present
+* Big Data Lecturer (Industry), Bandung Institute of Technology (ITB). 2024 - present
 * Head of Data, Ruangguru; Jakarta, ID. 2022 - 2023
 * Senior Data Manager, Ruangguru; Jakarta, ID. 2019 - 2022
 * Data Engineering Lead, Traveloka; Jakarta, ID. 2015 - 2019
