@@ -1,19 +1,46 @@
-site_name: My site
+site_name: Rendy B. Junior
 site_url: https://rendybjunior.com/
+site_author: Rendy B. Junior
 theme:
   name: material
+  language: id
   features:
     - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - navigation.top
+    - navigation.tracking
+    - navigation.expand
+    - navigation.footer
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 plugins:
   - search
   - blog
-  - tags:
-        tags_file: blog/tags.md
+  - tags
   - rss:
         match_path: "blog/posts/.*"
         date_from_meta:
           as_creation: date.created
           as_update: date.updated
+  - meta # for adding comments to all pages
+  - social
+  - tags
+  - glightbox
+
 nav:
   - Home: index.md
   - Blog:
@@ -22,18 +49,77 @@ nav:
 
 extra:
   social:
-    - icon: fontawesome/brands/mastodon
-      name: squidfunk on Mastodon
-      link: https://fosstodon.org/@squidfunk
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rendybjunior
+    - icon: material/heart
+      link: https://github.com/sponsors/rendybjunior
+      name: Sponsor Me
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/InsinyurData
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rendybjunior/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/rendybjunior
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/rendybjunior/
     - icon: /fontawesome/regular/envelope
       name: send me an email
-      link: mailto:<email-address>
+      link: mailto:insinyur.data@gmail.com
 
 hooks:
   - hooks/socialmedia.py
 
 markdown_extensions:
+  - abbr
+  - admonition
   - attr_list
-  - pymdownx.emoji:
+  - def_list
+  - footnotes
+  - md_in_html
+  # Python Markdown Extensions
+  #- pymdownx.arithmatex:
+  #    generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.blocks.caption #https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/caption/
+  #/// caption
+  #Fruit Count
+  #///
+  - pymdownx.caret # superscript H^2^0
+  - pymdownx.details # ??? note, ??? note+, !!! info inline, !!! info inline end
+  - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#using-emojis
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+      line_spans: __span
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite # `#!python print('hello')` # https://pygments.org/docs/lexers/
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.keys
+  - pymdownx.mark # highlighting using ==mark me== 
+  - pymdownx.smartsymbols # https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  # subscript CH~3~CH~2~OH
+  # strike ~~Delete me~~
+  - pymdownx.critic
+  # Addition {++ ++}
+  # Deletion {-- --}
+  # Substitution {~~ ~> ~~}
+  # Comment {>> <<}
+  # Highlight {== ==}{>> <<}
+
+validation:
+  absolute_links: ignore
