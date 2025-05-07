@@ -2,3 +2,4 @@ mkdocs
 mkdocs-material 
 mkdocs-rss-plugin
 mkdocs-glightbox
+mkdocs-material[imaging]
