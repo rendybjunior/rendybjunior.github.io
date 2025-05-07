@@ -3,7 +3,6 @@ site_url: https://rendybjunior.com/
 site_author: Rendy B. Junior
 theme:
   name: material
-  language: id
   features:
     - navigation.indexes
     - toc.follow
@@ -48,7 +47,6 @@ nav:
 
 extra:
   social:
-  social:
     - icon: fontawesome/brands/github
       link: https://github.com/rendybjunior
     - icon: material/heart
@@ -62,7 +60,7 @@ extra:
       link: https://x.com/rendybjunior
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/rendybjunior/
-    - icon: /fontawesome/regular/envelope
+    - icon: fontawesome/regular/envelope
       name: send me an email
       link: mailto:insinyur.data@gmail.com
 

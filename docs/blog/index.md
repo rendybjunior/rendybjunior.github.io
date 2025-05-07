@@ -1,2 +1,2 @@
-# Blog
+# Rendy's Blog
 
