@@ -21,10 +21,13 @@ Open for collaboration, consultation, and mentoring. Reach me at :fontawesome-so
 
 ## Professional Experience
 
-* VP of Data, Evermos; Jakarta, ID. 2023 - Present
+* Senior VP of Data, Evermos; Jakarta, ID. 2025 - Present
+* VP of Data, Evermos; Jakarta, ID. 2023 - 2025
 * Head of Data, Ruangguru; Jakarta, ID. 2022 - 2023
 * Senior Data Manager, Ruangguru; Jakarta, ID. 2019 - 2022
-* Data Engineering Lead, Traveloka; Jakarta, ID. 2014 - 2019
+* Data Engineering Lead, Traveloka; Jakarta, ID. 2015 - 2019
+* Software Engineer, Traveloka; Jakarta, ID. 2014 - 2015
+* Project Management Office, Accenture; Jakarta, ID. 2013-2014
 
 ## Education
 * Georgia Institute of Technology, Atlanta, US. MSc CS ML. 2024, GPA 3.9 of 4.0
