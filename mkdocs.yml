@@ -3,8 +3,9 @@ site_url: https://rendybjunior.com/
 site_author: Rendy B. Junior
 theme:
   name: material
+  favicon: assets/images/favicon.png
   icon:
-    logo: material/database-edit
+    logo: material/database
   features:
     - navigation.indexes
     - toc.follow
