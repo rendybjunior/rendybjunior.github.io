@@ -3,6 +3,8 @@ site_url: https://rendybjunior.com/
 site_author: Rendy B. Junior
 theme:
   name: material
+  icon:
+    logo: material/database-edit
   features:
     - navigation.indexes
     - toc.follow
