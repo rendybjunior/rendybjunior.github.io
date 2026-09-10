@@ -1,12 +1,15 @@
 site_name: Rendy B. Junior
 site_url: https://rendybjunior.com/
 site_author: Rendy B. Junior
+site_description: Data and AI leader, consultant, educator, and photographer based in Jakarta.
 theme:
   name: material
   favicon: assets/images/favicon.png
   icon:
     logo: material/database
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
     - content.code.copy
@@ -47,6 +50,10 @@ nav:
   - Blog:
      - blog/index.md
      - Tags: blog/tags.md
+  - Photography: photography.md
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:
@@ -61,6 +68,9 @@ extra:
       link: https://www.linkedin.com/in/rendybjunior/
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/rendybjunior
+    - icon: material/camera
+      link: https://randcaptures.com/
+      name: Rand Captures photography
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/rendybjunior/
     - icon: fontawesome/regular/envelope
