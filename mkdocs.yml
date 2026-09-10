@@ -50,8 +50,6 @@ nav:
   - Blog:
      - blog/index.md
      - Tags: blog/tags.md
-  - Photography: photography.md
-
 extra_css:
   - stylesheets/extra.css
 
@@ -75,7 +73,7 @@ extra:
       link: https://www.instagram.com/rendybjunior/
     - icon: fontawesome/regular/envelope
       name: send me an email
-      link: mailto:insinyur.data@gmail.com
+      link: mailto:hi@rendybjunior.com
 
 hooks:
   - hooks/socialmedia.py

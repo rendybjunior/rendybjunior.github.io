@@ -5,11 +5,16 @@ hide:
   - toc
 ---
 
+<nav class="home-nav" aria-label="Primary navigation">
+<a class="home-nav__brand" href="./"><span>RBJ</span> Rendy B. Junior</a>
+<div class="home-nav__links"><a href="blog/">Field notes</a><a href="https://randcaptures.com/">Photography</a><a href="mailto:hi@rendybjunior.com">Contact</a></div>
+</nav>
+
 <section class="hero">
 <div class="hero__copy">
 <p class="eyebrow"><span class="status-dot"></span> Senior VP of Data · Consultant · Educator</p>
 <h1>I turn messy data into<br><em>useful decisions.</em></h1>
-<p class="hero__lede">I’m Rendy Bambang Junior, a data and AI leader in Jakarta. I build teams, platforms, and intelligent products that turn technical capability into measurable business value.</p>
+<p class="hero__lede">I’m Rendy, a data and AI leader based in Jakarta. I build teams, platforms, and intelligent products that turn technical capability into <mark>measurable value.</mark></p>
 <div class="hero__actions">
 <a href="blog/" class="button button--primary">Read my field notes</a>
 <a href="#about" class="button button--quiet">More about me</a>
@@ -144,5 +149,5 @@ hide:
 <section class="contact-strip">
 <span>HAVE A HARD DATA PROBLEM?</span>
 <h3>Let’s think it through together.</h3>
-<a href="mailto:insinyur.data@gmail.com" class="button button--primary">Start a conversation</a>
+<a href="mailto:hi@rendybjunior.com" class="button button--primary">Start a conversation</a>
 </section>
