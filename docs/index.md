@@ -7,7 +7,7 @@ hide:
 
 <nav class="home-nav" aria-label="Primary navigation">
 <a class="home-nav__brand" href="./"><span>RBJ</span> Rendy B. Junior</a>
-<div class="home-nav__links"><a href="blog/">Field notes</a><a href="https://randcaptures.com/">Photography</a><a href="mailto:hi@rendybjunior.com">Contact</a></div>
+<div class="home-nav__links"><a href="blog/">Blog</a><a href="https://randcaptures.com/">Photography</a><a href="mailto:hi@rendybjunior.com">Contact</a></div>
 </nav>
 
 <section class="hero">
@@ -17,7 +17,6 @@ hide:
 <p class="hero__lede">I’m Rendy, a data and AI leader based in Jakarta. I build teams, platforms, and intelligent products that turn technical capability into <mark>measurable value.</mark></p>
 <div class="hero__actions">
 <a href="blog/" class="button button--primary">Read my field notes</a>
-<a href="#about" class="button button--quiet">More about me</a>
 </div>
 </div>
 <div class="hero__visual" aria-label="A visual summary of Rendy's work in data">
