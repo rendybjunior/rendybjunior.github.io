@@ -80,7 +80,7 @@ hide:
 </article>
 <article class="career-entry">
 <header><time>2022—2023</time><div><span>RUANGGURU</span><h3>Head of Data</h3></div></header>
-<div class="achievement-list"><p>Delivered recommendation, lead-scoring, and AI learning products—including Roboguru, which reached <strong>around 300,000 online sessions.</strong></p><p>Reduced infrastructure cost by 40% and tackled data quality at its source through schema review and a redesigned tracking SDK.</p></div>
+<div class="achievement-list"><p>Delivered recommendation, lead-scoring, and AI learning products—including Roboguru, which reached <strong>a significant volume of online sessions.</strong></p><p>Reduced infrastructure cost by 40% and tackled data quality at its source through schema review and a redesigned tracking SDK.</p></div>
 </article>
 <article class="career-entry">
 <header><time>2019—2022</time><div><span>RUANGGURU</span><h3>Senior Data Manager</h3></div></header>
