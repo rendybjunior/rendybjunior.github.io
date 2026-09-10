@@ -1,0 +1,25 @@
+<header class="md-header rbj-site-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Site header">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" class="rbj-site-header__brand" aria-label="{{ config.site_name }}">
+      <span>RBJ</span>
+      <strong>{{ config.site_name }}</strong>
+    </a>
+    <div class="rbj-site-header__links">
+      <a href="{{ 'blog/' | url }}">Blog</a>
+      <a href="https://randcaptures.com/">Photography</a>
+      <a href="mailto:hi@rendybjunior.com">Contact</a>
+    </div>
+    <div class="rbj-site-header__tools">
+      {% if config.theme.palette and not config.theme.palette is mapping %}
+        {% include "partials/palette.html" %}
+      {% endif %}
+      {% if "material/search" in config.plugins %}
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+    </div>
+  </nav>
+</header>

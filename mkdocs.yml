@@ -4,6 +4,7 @@ site_author: Rendy B. Junior
 site_description: Data and AI leader, consultant, educator, and photographer based in Jakarta.
 theme:
   name: material
+  custom_dir: overrides
   favicon: assets/images/favicon.png
   icon:
     logo: material/database
