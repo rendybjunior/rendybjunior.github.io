@@ -74,7 +74,7 @@ extra:
       link: https://www.instagram.com/rendybjunior/
     - icon: fontawesome/regular/envelope
       name: send me an email
-      link: mailto:hi@rendybjunior.com
+      link: mailto:hi@rendy.id
 
 hooks:
   - hooks/socialmedia.py

@@ -7,7 +7,7 @@ hide:
 
 <nav class="home-nav" aria-label="Primary navigation">
 <a class="home-nav__brand" href="./"><span>RBJ</span> Rendy B. Junior</a>
-<div class="home-nav__links"><a href="blog/">Blog</a><a href="https://randcaptures.com/">Photography</a><a href="mailto:hi@rendybjunior.com">Contact</a></div>
+<div class="home-nav__links"><a href="blog/">Blog</a><a href="https://randcaptures.com/">Photography</a><a href="mailto:hi@rendy.id">Contact</a></div>
 </nav>
 
 <section class="hero">
@@ -148,5 +148,5 @@ hide:
 <section class="contact-strip">
 <span>HAVE A HARD DATA PROBLEM?</span>
 <h3>Let’s think it through together.</h3>
-<a href="mailto:hi@rendybjunior.com" class="button button--primary">Start a conversation</a>
+<a href="mailto:hi@rendy.id" class="button button--primary">Start a conversation</a>
 </section>
