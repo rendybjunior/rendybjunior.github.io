@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-Rendy's personal site/blog (https://rendybjunior.com, custom domain set in `docs/CNAME`). It is a **MkDocs + Material for MkDocs** site — there is no application code, just Markdown content, theme overrides, and one Python build-time hook.
+Rendy's personal site/blog (https://rendy.id, custom domain set in `docs/CNAME`). It is a **MkDocs + Material for MkDocs** site — there is no application code, just Markdown content, theme overrides, and one Python build-time hook.
 
 ## Common commands
 
